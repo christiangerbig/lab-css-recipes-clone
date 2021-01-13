@@ -1,0 +1,70 @@
+body {
+    font-family: "roboto";
+}
+
+#titleContainer {
+    background-image: url("../images/apple-pie.jpg");
+	background-color: grey;
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 62em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleContainer h1 {
+    font-size: 6rem;
+}
+
+#forewordContainer {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 30rem;
+}
+
+.partingLine {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 3rem;
+}
+
+#ingredientsContainer {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#cookinginfoContainer {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#directionsContainer {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+}
